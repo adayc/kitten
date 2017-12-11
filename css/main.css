@@ -1,173 +1,44 @@
  /*Configuracion inicial de la página*/
 
-body
-{
-  background-color:#eee;
-  font-family: sans-serif;
-  color:#333;
-  text-align:justify;
-}
+ body
+ {
+   background-color:#eee;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color:#333;
+   text-align:center;
+   font-style:oblique;
+ }
 
-header{
-  max-width: 100%;
-  background: #1e9e74;
-  color:white;
-  padding:2% 5%;
-  position:fixed;
-  z-index:1000;
-}
-
-.title{
-  display:inline-block;
-  font-weight:bold;
-}
-
-.uppercase{
-  text-transform:uppercase;
-}
-
-/*Estilo del navegador*/
-.drop-down{
-  float:right;
-  cursor: pointer;
-}
-
-.menu-navigator{
-  float:right;
-  display:none;
-  
-}
-
-.item{
-  display:inline-block;
-  padding:5px;
-  
-}
-
-.item a{
-  text-decoration:none;
-  color:white;
-}
-.item a:hover{
-  color:lightskyblue;
-}
-
-/*Estilo de la parte principal d la página*/
-.main-image{
-  width:100%;
-  position: relative;
-  top:45px;
-}
-
-main{
-  position: relative;
-  top:50px;
-}
-
-.line-spacing{
-  line-height: 25px;
-}
-
-
-.about{
-  padding:20px;
-  
-}
-
-.contact-us{
-  padding:20px;
+  /*Estilo del header*/
+ header{
+   width: 100%;
+   background: #1e9e74;
+   color:white;
+   padding:2% 5%;
+   float: left;
    
-}
-
-.button{
-  background-color: #1e9e74;
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  margin-top:20px;
-  padding:10px;
-  
-}
-
-.social-network{
-  color:#1e9e74;
-  margin-right:5px;
-}
-
-/*Estilo de los articulos*/
-
-.articles{
-  float:left;
-}
-
-.card{
-  border:solid 1px gray;
-  border-radius: 5px;
-  margin-bottom:15px;
-  margin-top:5px;
-  padding:10px;
-  float:left;
-}
-
-.card-image{
-  width:100%;
-  height:300px;
-  margin-top:15px;
-}
-/*Estilo del footer*/
-footer{
-  
-  background-color: #1e9e74;
-  color:white;
-  font-weight:bold;
-  padding:15px;
-  position: relative;
-  text-align:center;
-  top:50px;
-  
-}
-
-/*Clase para el menú desplegable js*/
-.menu-modal{
-  display:block;
-}
-
-.menu-modal ul{
-  display:block;
-  background-color: #1e9e74;
-  position: absolute;
-  top:25px;
-  right:3%;
-}
-
-.menu-modal ul li{
-  display:block;
-}
-
-
- /*Configuracion de la página en el caso que sea mayor o igual a 768px*/
-@media screen and (min-width : 768px) {
-  
-  .drop-down{
-    display:none;
-  }
-
-  .menu-navigator{
-    display:inline-block;
-    margin-right:100px;
-  }
-
-  .main-image{
-    top:60px;
-  }
-  .card{
-    margin-right:20px;
-  }
-
-  .card-image{
-    height:150px;
-  }
-
-}
-
+ }
+ 
+ /*Estilo del footer*/
+ footer{
+   
+   background-color: #1e9e74;
+   color:white;
+   font-weight:bold;
+   padding:15px;
+   
+   
+   
+   
+ }
+ 
+ 
+ 
+ 
+  /*Configuracion de la página en el caso que sea mayor o igual a 768px*/
+ @media screen and (min-width : 768px) {
+   
+ 
+ }
+ 
+ 
