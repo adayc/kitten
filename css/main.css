@@ -1,44 +1,67 @@
  /*Configuracion inicial de la página*/
 
- body
- {
-   background-color:#eee;
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
-   color:#333;
-   text-align:center;
-   font-style:oblique;
+ body{
+  background-color:#eee;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:#333;
+  text-align:center;
+  font-style:oblique;
  }
 
   /*Estilo del header*/
  header{
-   width: 100%;
-   background: #1e9e74;
-   color:white;
-   padding:2% 5%;
-   float: left;
-   
+  width: 100%;
+  background: lightsteelblue;
+  color:lightslategrey;
+  padding:2% 5%;
+  float: left;  
  }
  
  /*Estilo del footer*/
  footer{
-   
-   background-color: #1e9e74;
-   color:white;
-   font-weight:bold;
-   padding:15px;
-   
-   
-   
-   
+  background: lightsteelblue;
+  color:lightslategrey;
+  float: left;  
+  padding:15px;
+}
+
+.background{
+  background-image: url("../assets/imgs/dawn.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  height:506px;
+}
+ figure{
+  
+  background-image: url("../assets/imgs/kitten-large.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: 100% 50%;
+  height:285px;
+  transform:translateY(25%)
  }
- 
  
  
  
   /*Configuracion de la página en el caso que sea mayor o igual a 768px*/
  @media screen and (min-width : 768px) {
-   
+  .background{
+    background-image: url("../assets/imgs/night.jpg");
+  }
  
+  figure{
+    background-image: url("../assets/imgs/kitten-small.png");
+  }
  }
+/*Configuracion de la página en el caso que sea mayor o igual a 992px*/
+ @media screen and (min-width : 992px) {
+  .background{
+    background-image: url("../assets/imgs/sunny-day.jpg");
+  }
+  figure{
+    background-image: url("../assets/imgs/kitten-medium.png");
+  }
+
+}
  
  
